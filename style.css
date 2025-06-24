@@ -1,3 +1,58 @@
 body {
     background-color: #FFE9EA;
 }
+
+button {
+
+    background-color: #D47E7D;
+}
+
+h1 {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    color: #2D0B09;
+    font-size: 96px;
+}
+
+h2 {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    color: #2D0B09;
+    font-size: 64px;
+}
+
+span {
+    color: #D87D7B;
+}
+
+p {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    color: #2D0B09;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+}
+
+button p {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.title {
+    display: flex;
+    margin-top: 30px;
+}
+
+.div {
+    display: flex;
+}
+
+#bolo-de-pote {
+    width: 731px;
+    height: 502px;
+    float: right;
+}
