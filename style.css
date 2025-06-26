@@ -3,7 +3,6 @@ body {
 }
 
 button {
-
     background-color: #D47E7D;
 }
 
@@ -12,14 +11,17 @@ h1 {
     font-weight: 400;
     color: #2D0B09;
     font-size: 96px;
+    margin-top: 5px;
 }
 
 h2 {
     font-family: "Jaini Purva", system-ui;
     font-weight: 400;
     color: #2D0B09;
-    font-size: 64px;
+    font-size: 60px;
+    margin-top: -30px;
 }
+
 
 span {
     color: #D87D7B;
@@ -31,8 +33,12 @@ p {
     color: #2D0B09;
 }
 
+.content p {
+    font-size: 40px;
+}
+
 button {
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
 }
 
@@ -40,6 +46,10 @@ button p {
     font-family: "Jaini Purva", system-ui;
     font-weight: 400;
     color: #FFFFFF;
+}
+
+#cardapio {
+    margin-left: 100px;
 }
 
 .title {
@@ -52,7 +62,25 @@ button p {
 }
 
 #bolo-de-pote {
-    width: 731px;
-    height: 502px;
-    float: right;
+    width: 800px;
+    height: 532px;
+    margin-right: 100px;
+
 }
+
+.container {
+    margin: 50px;
+}
+
+
+.texto {
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
