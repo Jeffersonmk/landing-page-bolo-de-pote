@@ -27,9 +27,13 @@ span {
     color: #D87D7B;
 }
 
-p {
+p,
+.button-text  {
     font-family: "Jaini Purva", system-ui;
     font-weight: 400;
+}
+
+p {
     color: #2D0B09;
 }
 
@@ -38,34 +42,43 @@ p {
 }
 
 button {
+    height: 86px;
+    width: 336px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 
-button p {
-    font-family: "Jaini Purva", system-ui;
-    font-weight: 400;
+button:hover {
+    background-color: #f08d8c;
+}
+
+
+#pedido {
+    margin-right: 40px;
+}
+
+.button-text {
+    font-size: 40px;
     color: #FFFFFF;
 }
 
-#cardapio {
-    margin-left: 100px;
-}
 
 .title {
     display: flex;
     margin-top: 30px;
+    align-items: center;
+    gap: 15px;
 }
 
-.div {
-    display: flex;
+.title img {
+    height: 100px;
+    width: auto;
 }
 
 #bolo-de-pote {
     width: 800px;
     height: 532px;
-    margin-right: 100px;
-
 }
 
 .container {
@@ -83,4 +96,21 @@ button p {
     align-items: flex-start;
     gap: 40px;
 }
+
+
+.headlines {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    margin-top: -50px;
+}
+
+.headlines img {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
 
