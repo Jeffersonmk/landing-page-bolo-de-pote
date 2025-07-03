@@ -22,7 +22,6 @@ h2 {
     margin-top: -30px;
 }
 
-
 span {
     color: #D87D7B;
 }
@@ -53,7 +52,6 @@ button:hover {
     background-color: #f08d8c;
 }
 
-
 #pedido {
     margin-right: 40px;
 }
@@ -63,17 +61,17 @@ button:hover {
     color: #FFFFFF;
 }
 
-
 .title {
     display: flex;
     margin-top: 30px;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .title img {
     height: 100px;
     width: auto;
+    margin-top: -73px;
 }
 
 #bolo-de-pote {
@@ -84,7 +82,6 @@ button:hover {
 .container {
     margin: 50px;
 }
-
 
 .texto {
     width: 50%;
@@ -97,7 +94,6 @@ button:hover {
     gap: 40px;
 }
 
-
 .headlines {
     align-items: center;
     display: flex;
@@ -109,6 +105,9 @@ button:hover {
     height: 60px;
     width: 60px;
 }
+
+
+
 
 
 
