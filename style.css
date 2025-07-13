@@ -107,8 +107,16 @@ button:hover {
 
 @media (max-width: 768px) {
 
-    .container {
-        margin: 40px;
+    .content h1 {
+        font-size: 90px;
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+
+    .content p {
+        font-size: 35px;
     }
 
     .title {
@@ -128,5 +136,40 @@ button:hover {
 
     button {
         margin-bottom: 30px;
+    }
+
+    #bolo-de-pote {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .texto {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 30px;
     }
 }
